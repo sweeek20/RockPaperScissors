@@ -30,7 +30,7 @@ public class Game extends JFrame implements ActionListener {
         //JFrame obj = new JFrame();
         setSize(600,400);
         setVisible(true);
-        JLabel background=new JLabel(new ImageIcon("C:\\Users\\ekswe\\OneDrive\\Pictures\\wallpaper\\rockpaperscissors.png"));
+        JLabel background=new JLabel(new ImageIcon("rockpaperscissors.png"));
         add(background);
         background.setLayout(new FlowLayout());
 
