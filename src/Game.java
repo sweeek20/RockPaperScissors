@@ -11,6 +11,7 @@ public class Game extends JFrame implements ActionListener {
     private JTextField text1, text2, text3,  text4;
     int[] score = new int[2];
 
+
     // method to set up the game screen
     public void setup() {
         setSize(1000,500);
