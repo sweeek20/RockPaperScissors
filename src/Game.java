@@ -54,12 +54,12 @@ public class Game extends JFrame implements ActionListener {
         // if either player reaches a score of 3, they win and the game ends
         if (score[0] == 3) {
             text4.setText("Player wins. End of game.");
-            JFrame.EXIT_ON_CLOSE();
+            //JFrame.EXIT_ON_CLOSE();
             return;
         }
         if (score[1] == 3) {
             text4.setText("Computer wins. End of game.");
-            JFrame.EXIT_ON_CLOSE();
+            //JFrame.EXIT_ON_CLOSE();
             return;
         }
         // initializes variables used to keep track of player choice and computer choice
